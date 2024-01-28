@@ -1,4 +1,7 @@
-# Prettify
+README wip
+basically this fork is adding more themes
+
+<!-- # Prettify
 
 Collection of customizable Anki flashcard templates with modern and clean themes.
 
@@ -135,4 +138,4 @@ If you like my work, you can support the development by
 - Starring the project on GitHub
 - Following me on GitHub
 - [Buying me a coffee](https://www.buymeacoffee.com/pranavdeshai)
-- Donating on [Ko-fi](https://ko-fi.com/pranavdeshai)
+- Donating on [Ko-fi](https://ko-fi.com/pranavdeshai) -->
