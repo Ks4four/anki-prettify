@@ -30,6 +30,7 @@ The font is inhenited from the system.
 
 - [ ] Develop a Chinese documentaion
 - [ ] Make a presentable code documentaion
+- [ ] Add screenshots
 - Add planned themes
   - [x] [One Dark Pro](https://github.com/Binaryify/OneDark-Pro) (including vivid version)
   - [ ] [Vscode One Light](https://github.com/akamud/vscode-theme-onelight) & [Vscode One Night](https://github.com/akamud/vscode-theme-onedark)
