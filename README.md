@@ -1,16 +1,14 @@
-*README still wip*
-
 # anki-prettify-themes
 
-This repository is a fork of [pranavdeshai/anki-prettify](https://github.com/pranavdeshai/anki-prettify), is aiming to add more themes using its templates.
+This repository is a fork of [pranavdeshai/anki-prettify](https://github.com/pranavdeshai/anki-prettify), aiming to add more themes using its templates.
 
-<!-- ## About
+## Motivation
 
-I guess someone would using Anki as long as vscode, sitting in front of the flashcards for 4 hours. -->
+Many Anki users spend many time studying flashcards, similar to developers working in an IDE. This fork provides a collecion of visually appealing themes.
 
 ## Themes
 
-The font is inhenited from system.
+The font is inhenited from the system.
 
 | Original                                          | Download                                        |
 | ---------------------------------------------- | ----------------------------------------------- |
@@ -26,19 +24,21 @@ The font is inhenited from system.
 5. You can now use the new note type in your collection! -->
 
 ## Requirements
+- Anki 2.1 or higher (may with Anki 2.0)
 
-- Anki 2.1 or higher (should work with Anki 2.0)
+## Roadmap
 
-## Plans for future
-
-- [x] [One Dark Pro](https://github.com/Binaryify/OneDark-Pro) (& vivid versions)
-- [ ] [Vscode One Light](https://github.com/akamud/vscode-theme-onelight) & [Vscode One Night](https://github.com/akamud/vscode-theme-onedark)
-- [ ] [Catppuccin](https://github.com/catppuccin)
-- [ ] [Aura](https://github.com/daltonmenezes/aura-theme)
+- [ ] Develop a Chinese documentaion
+- [ ] Make a presentable code documentaion
+- Add planned themes
+  - [x] [One Dark Pro](https://github.com/Binaryify/OneDark-Pro) (including vivid version)
+  - [ ] [Vscode One Light](https://github.com/akamud/vscode-theme-onelight) & [Vscode One Night](https://github.com/akamud/vscode-theme-onedark)
+  - [ ] [Catppuccin](https://github.com/catppuccin)
+  - [ ] [Aura](https://github.com/daltonmenezes/aura-theme)
 
 ## Support development
 
-If you like this work, you can support the development to the original creator by
+Consider supporting the development of the original creator:
 
 - [Buying me a coffee](https://www.buymeacoffee.com/pranavdeshai) to [@pranavdeshai](https://github.com/pranavdeshai/)
 - Donating on [Ko-fi](https://ko-fi.com/pranavdeshai) to [@pranavdeshai](https://github.com/pranavdeshai/)
