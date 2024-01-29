@@ -4,7 +4,7 @@
   --card-text-align: left;
   --font-size-regular: 16px;
   --font-size-small: 14px;
-  --font-family: "Inter", -apple-system, sytem-ui, BlinkMacSystemFont, Segoe UI,
+  --font-family: -apple-system, sytem-ui, BlinkMacSystemFont, Segoe UI,
     Roboto, Helvetica, Arial, sans-serif;
   --img-width: 50%;
   --img-brightness: 0.75;
@@ -13,12 +13,12 @@
 
 /* -------------------------------------------------- COLORS */
 .card {
-  /* One Dark Pro */
-  --text-fg: #abb2bf;
-  --text-fg-faint: #818896;
-  --text-bg-selected: #5c6370;
-  --card-bg: #282c34;
-  --card-border: #818896;
+  /* Light = One Dark Pro vivid */
+  --text-fg: #abb2bf; /* from vscode */
+  --text-fg-faint: #818896; /* from vscode */
+  --text-bg-selected: #5c6370; /* dark */
+  --card-bg: #282c34; /* from vscode */
+  --card-border: #818896; /* from vscode */
   --divider: var(--text-fg);
   --tag-fg: var(--text-fg);
   --tag-bg: var(--card-bg);
@@ -26,26 +26,25 @@
   --tag-bg-active: var(--card-bg);
   --tag-border: var(--text-fg-faint);
   --tag-border-active: var(--text-fg);
-  --cloze-fg: #56b6c2;
+  --cloze-fg: #2bbac5; /* fountainBlue */
   --cloze-bg: transparent;
-  /* Here different from the original, #61afef */
-  --link-fg: #61aeee;
+  --link-fg: #61afef; /* malibu */
   --link-bg: transparent;
   --link-fg-active: var(--link-fg);
   --link-bg-active: transparent;
-  --bold-fg: #d19a66;
-  --italic-fg: #c678dd;
-  --bold-italic-fg: #e06c75;
-  --underline-fg: #98c379;
+  --bold-fg: #d19a66; /* whiskey */
+  --italic-fg: #d55fde; /* purple */
+  --bold-italic-fg: #ef596f; /* coral */
+  --underline-fg: #89ca78; /* green */
   background-color: var(--card-bg);
 }
 
 .card.night_mode {
-  /* One Dark Pro Darker */
-  background-color: #23272e;
+  /* Night = One Dark Pro Darker */
   --card-bg: #23272e;
   --tag-bg: var(--card-bg);
   --tag-bg-active: var(--card-bg);
+  background-color: var(--card-bg);
 }
 
 /* -------------------------------------------------- BACKGROUND */
