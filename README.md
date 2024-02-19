@@ -10,12 +10,22 @@ Many Anki users spend many time studying flashcards, similar to developers worki
 
 The font is inhenited from the system.
 
-- [one-dark-pro.css](/src/styles/css/one-dark-pro-vivid.css) | [Binaryify/OneDark-Pro](https://github.com/Binaryify/OneDark-Pro)
-- [one-dark-pro-vivid.css](/src/styles/css/one-dark-pro-vivid.css) | [Binaryify/OneDark-Pro with vivid enabled](https://cdn.jsdelivr.net/gh/binaryify/onedark-pro/screenshots/color.png)
+- [Binaryify/OneDark-Pro](https://github.com/Binaryify/OneDark-Pro)
+  - [Default](/src/styles/css/one-dark-pro-vivid.css)
+  - [Vivid](/src/styles/css/one-dark-pro-vivid.css) 
+
 - [Sainnhe/Everforest](https://github.com/sainnhe/everforest)
   - [Everforest Hard](/src/styles/css/everforest-hard.css)
   - [Everforest Medium](/src/styles/css/everforest-medium.css)
   - [Everforest Soft](/src/styles/css/everforest-soft.css)
+
+- [Monokai Pro](https://monokai.pro/)
+  - [Classic](/src/styles/css/monokai-classic.css)
+  - [Machine](/src/styles/css/monokai-machine.css)
+  - [Octagon](/src/styles/css/monokai-octagon.css)
+  - [Pro](/src/styles/css/monokai-pro.css)
+  - [Ristretto](/src/styles/css/monokai-ristretto.css)
+  - [Spectrum](/src/styles/css/monokai-spectrum.css)
 
 <!-- ## Instructions
 
@@ -36,7 +46,7 @@ The font is inhenited from the system.
 - Add planned themes
   - [x] [One Dark Pro](https://github.com/Binaryify/OneDark-Pro) (including vivid version)
   - [x] [Sainnhe/Everforest](https://github.com/sainnhe/everforest)
-  - [ ] [Monokai/monokai-pro-vscode](https://github.com/Monokai/monokai-pro-vscode)
+  - [x] [loctvl842/monokai-pro.nvim](https://github.com/loctvl842/monokai-pro.nvim)
   - [ ] [akamud/vscode-theme-onelight](https://github.com/akamud/vscode-theme-onelight) & [Vscode One Night](https://github.com/akamud/vscode-theme-onedark)
   - [ ] [Catppuccin](https://github.com/catppuccin)
   - [ ] [daltonmenezes/aura-theme](https://github.com/daltonmenezes/aura-theme)

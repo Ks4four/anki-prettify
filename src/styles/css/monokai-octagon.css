@@ -13,39 +13,24 @@
 
 /* -------------------------------------------------- COLORS */
 :root {
-  --light-bg-dim: #f2efdf;
-  --light-bg0: #fffbef;
-  --dark-bg-dim: #1e2326;
-  --dark-bg0: #272e33;
-}
-
-:root {
-  --light-fg: #5c6a72;
-  --light-red: #f85552;
-  --light-orange: #f57d26;
-  --light-yellow: #dfa000;
-  --light-green: #8da101;
-  --light-aqua: #35a77c;
-  --light-blue: #3a94c5;
-  --light-purple: #df69ba;
-  --light-grey1: #939f91;
-  --dark-fg: #d3c6aa;
-  --dark-red: #e67e80;
-  --dark-orange: #e69875;
-  --dark-yellow: #dbbc7f;
-  --dark-green: #a7c080;
-  --dark-aqua: #83c092;
-  --dark-blue: #7fbbb3;
-  --dark-purple: #d699b6;
-  --dark-grey1: #859289;
+  --background: #282a3a;
+  --text: #eaf2f1;
+  --accent1: #ff657a;
+  --accent2: #ff9b5e;
+  --accent3: #ffd76d;
+  --accent4: #bad761;
+  --accent5: #9cd1bb;
+  --accent6: #c39ac9;
+  --dimmed1: #b2b9bd;
+  --dimmed2: #888d94;
 }
 
 .card {
-  --text-fg: var(--light-fg);
-  --text-fg-faint: var(--light-grey1);
-  --text-bg-selected: var(--light-bg-dim);
-  --card-bg: var(--light-bg0);
-  --card-border: var(--text-fg-faint);
+  --text-fg: var(--text);
+  --text-fg-faint: var(--dimmed1);
+  --text-bg-selected: var(--dimmed2);
+  --card-bg: var(--background);
+  --card-border: var(--dimmed2);
   --divider: var(--text-fg);
   --tag-fg: var(--text-fg);
   --tag-bg: var(--card-bg);
@@ -53,44 +38,19 @@
   --tag-bg-active: var(--card-bg);
   --tag-border: var(--text-fg-faint);
   --tag-border-active: var(--text-fg);
-  --cloze-fg: var(--light-aqua);
+  --cloze-fg: var(--accent4);
   --cloze-bg: transparent;
-  --link-fg: var(--light-blue);
+  --link-fg: var(--accent5);
   --link-bg: transparent;
-  --link-fg-active: var(--link-fg);
+  --link-fg-active: var(--accent3);
   --link-bg-active: transparent;
-  --bold-fg: var(--light-orange);
-  --italic-fg: var(--light-purple);
-  --bold-italic-fg: var(--light-red);
-  --underline-fg: var(--light-green);
+  --bold-fg: var(--accent2);
+  --italic-fg: var(--accent6);
+  --bold-italic-fg: var(--accent1);
+  --underline-fg: var(--accent4);
   background-color: var(--card-bg);
 }
 
-.card.night_mode {
-  --text-fg: var(--dark-fg);
-  --text-fg-faint: var(--dark-grey1);
-  --text-bg-selected: var(--dark-bg-dim);
-  --card-bg: var(--dark-bg0);
-  --card-border: var(--text-fg-faint);
-  --divider: var(--text-fg);
-  --tag-fg: var(--text-fg);
-  --tag-bg: var(--card-bg);
-  --tag-fg-active: var(--text-fg);
-  --tag-bg-active: var(--card-bg);
-  --tag-border: var(--text-fg-faint);
-  --tag-border-active: var(--text-fg);
-  --cloze-fg: var(--dark-aqua);
-  --cloze-bg: transparent;
-  --link-fg: var(--dark-blue);
-  --link-bg: transparent;
-  --link-fg-active: var(--link-fg);
-  --link-bg-active: transparent;
-  --bold-fg: var(--dark-orange);
-  --italic-fg: var(--dark-purple);
-  --bold-italic-fg: var(--dark-red);
-  --underline-fg: var(--dark-green);
-  background-color: var(--card-bg);
-}
 
 /* -------------------------------------------------- BACKGROUND */
 .card {
@@ -336,32 +296,6 @@ pre {
 }
 
 /* -------------------------------------------------- CUSTOM FONTS */
-@font-face {
-  font-family: Inter;
-  src: local("Inter-Regular"), url("_Inter-Regular.woff2") format("woff2");
-  font-style: normal;
-  font-weight: normal;
-}
 
-@font-face {
-  font-family: Inter;
-  src: local("Inter-Bold"), url("_Inter-Bold.woff2") format("wofff2");
-  font-style: normal;
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: Inter;
-  src: local("Inter-Italic"), url("_Inter-Italic.woff2") format("wofff2");
-  font-style: italic;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: Inter;
-  src: local("Inter-BoldItalic"), url("_Inter-BoldItalic.woff2") format("wofff2");
-  font-style: italic;
-  font-weight: bold;
-}
 
 /* -------------------------------------------------- END OF THEME */
