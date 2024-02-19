@@ -35,9 +35,11 @@ The font is inhenited from the system.
 - [ ] Add screenshots
 - Add planned themes
   - [x] [One Dark Pro](https://github.com/Binaryify/OneDark-Pro) (including vivid version)
-  - [ ] [Vscode One Light](https://github.com/akamud/vscode-theme-onelight) & [Vscode One Night](https://github.com/akamud/vscode-theme-onedark)
+  - [x] [Sainnhe/Everforest](https://github.com/sainnhe/everforest)
+  - [ ] [Monokai/monokai-pro-vscode](https://github.com/Monokai/monokai-pro-vscode)
+  - [ ] [akamud/vscode-theme-onelight](https://github.com/akamud/vscode-theme-onelight) & [Vscode One Night](https://github.com/akamud/vscode-theme-onedark)
   - [ ] [Catppuccin](https://github.com/catppuccin)
-  - [ ] [Aura](https://github.com/daltonmenezes/aura-theme)
+  - [ ] [daltonmenezes/aura-theme](https://github.com/daltonmenezes/aura-theme)
 
 ## Support development
 
