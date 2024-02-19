@@ -10,31 +10,48 @@ Many Anki users spend many time studying flashcards, similar to developers worki
 
 The font is inhenited from the system.
 
-- [Binaryify/OneDark-Pro](https://github.com/Binaryify/OneDark-Pro)
-  - [Default](/src/styles/css/one-dark-pro-vivid.css)
-  - [Vivid](/src/styles/css/one-dark-pro-vivid.css) 
+### [Binaryify/OneDark-Pro](https://github.com/Binaryify/OneDark-Pro)
+Light = Default/Vivid, Night = One Dark Pro darker
 
-- [Sainnhe/Everforest](https://github.com/sainnhe/everforest)
-  - [Everforest Hard](/src/styles/css/everforest-hard.css)
-  - [Everforest Medium](/src/styles/css/everforest-medium.css)
-  - [Everforest Soft](/src/styles/css/everforest-soft.css)
+Download `css` here:
+  - [Default](/src/styles/css/one-dark-pro-vivid.css) `one-dark-pro-vivid.css`
+  - [Vivid](/src/styles/css/one-dark-pro-vivid.css) `one-dark-pro-vivid.css`
 
-- [Monokai Pro](https://monokai.pro/)
-  - [Classic](/src/styles/css/monokai-classic.css)
-  - [Machine](/src/styles/css/monokai-machine.css)
-  - [Octagon](/src/styles/css/monokai-octagon.css)
-  - [Pro](/src/styles/css/monokai-pro.css)
-  - [Ristretto](/src/styles/css/monokai-ristretto.css)
-  - [Spectrum](/src/styles/css/monokai-spectrum.css)
+### [Sainnhe/Everforest](https://github.com/sainnhe/everforest)
+3 versions, different backgrounds and same foregrounds.
+  - [Everforest Hard](/src/styles/css/everforest-hard.css) `everforest-hard.css`
+  - [Everforest Medium](/src/styles/css/everforest-medium.css) `everforest-medium.css`
+  - [Everforest Soft](/src/styles/css/everforest-soft.css) `everforest-soft.css`
 
-- [Catppuccin](https://github.com/catppuccin)
-  - [Frappé](/src/styles/css/catppuccin-frappe.css)
-  - [Macchiato](/src/styles/css/catppuccin-macchiato.css)
-  - [Mocha](/src/styles/css/catppuccin-mocha.css)
+### [Monokai Pro](https://monokai.pro/)
+6 versions with different backgrounds and foregrounds.
+  - [Classic](/src/styles/css/monokai-classic.css) `monokai-classic.css`
+  - [Machine](/src/styles/css/monokai-machine.css) `monokai-machine.css`
+  - [Octagon](/src/styles/css/monokai-octagon.css) `monokai-octagon.css`
+  - [Pro](/src/styles/css/monokai-pro.css) `monokai-pro.css`
+  - [Ristretto](/src/styles/css/monokai-ristretto.css) `monokai-ristretto.css`
+  - [Spectrum](/src/styles/css/monokai-spectrum.css) `monokai-spectrum.css`
 
-- [Aura](https://github.com/daltonmenezes/aura-theme)
-  - [Dark](/src/styles/css/aura-dark.css)
-  - [Dark soft](/src/styles/css/aura-dark-soft.css)
+### [Catppuccin](https://github.com/catppuccin)
+Light = Latte, Night = Frappé/Macchiato/Mocha
+  - [Frappé](/src/styles/css/catppuccin-frappe.css) `catppuccin-frappe.css`
+  - [Macchiato](/src/styles/css/catppuccin-macchiato.css) `catppuccin-macchiato.css`
+  - [Mocha](/src/styles/css/catppuccin-mocha.css) `catppuccin-mocha.css`
+
+### [Daltonmenezes/Aura-Theme](https://github.com/daltonmenezes/aura-theme)
+No light mode just like Dracula.
+  - [Dark](/src/styles/css/aura-dark.css) `aura-dark.css`
+  - [Dark soft](/src/styles/css/aura-dark-soft.css) `aura-dark-soft.css`
+
+### [Dracula](https://github.com/dracula/)
+No light mode.
+  - [Dracula](/src/styles/css/dracula.css) `dracula.css`
+
+### Mininal (from [pranavdeshai/anki-prettify](https://github.com/pranavdeshai/anki-prettify))
+  - [Mininal](/src/styles/css/mininal.css) `mininal.css`
+
+### Nord (from [pranavdeshai/anki-prettify](https://github.com/pranavdeshai/anki-prettify))
+  - [Nord](/src/styles/css/nord.css) `nord.css`
 
 <!-- ## Instructions
 
@@ -49,13 +66,13 @@ The font is inhenited from the system.
 - [ ] Develop a Chinese documentaion
 - [ ] Make a presentable code documentaion
 - [ ] Add screenshots
-- Add planned themes
+- [ ] Add planned themes
   - [x] [One Dark Pro](https://github.com/Binaryify/OneDark-Pro)
   - [x] [Sainnhe/Everforest](https://github.com/sainnhe/everforest)
   - [x] [loctvl842/monokai-pro.nvim](https://github.com/loctvl842/monokai-pro.nvim)
   - [x] [Catppuccin](https://github.com/catppuccin)
   - [x] [daltonmenezes/aura-theme](https://github.com/daltonmenezes/aura-theme)
-  ~~- [ ] [akamud/vscode-theme-onelight](https://github.com/akamud/vscode-theme-onelight) & [Vscode One Night](https://github.com/akamud/vscode-theme-onedark)~~
+  - ~~[ ] [akamud/vscode-theme-onelight](https://github.com/akamud/vscode-theme-onelight) & [Vscode One Night](https://github.com/akamud/vscode-theme-onedark)~~
 
 ## Support development
 
