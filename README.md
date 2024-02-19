@@ -23,7 +23,7 @@ Download `css` here:
   - [Everforest Medium](/src/styles/css/everforest-medium.css) `everforest-medium.css`
   - [Everforest Soft](/src/styles/css/everforest-soft.css) `everforest-soft.css`
 
-### [Monokai Pro](https://monokai.pro/)
+### [loctvl842/monokai-pro.nvim](https://github.com/loctvl842/monokai-pro.nvim)
 6 versions with different backgrounds and foregrounds.
   - [Classic](/src/styles/css/monokai-classic.css) `monokai-classic.css`
   - [Machine](/src/styles/css/monokai-machine.css) `monokai-machine.css`
@@ -63,16 +63,17 @@ No light mode.
 
 ## Roadmap
 
-- [ ] Develop a Chinese documentaion
-- [ ] Make a presentable code documentaion
-- [ ] Add screenshots
-- [ ] Add planned themes
+- Add planned themes
   - [x] [One Dark Pro](https://github.com/Binaryify/OneDark-Pro)
   - [x] [Sainnhe/Everforest](https://github.com/sainnhe/everforest)
   - [x] [loctvl842/monokai-pro.nvim](https://github.com/loctvl842/monokai-pro.nvim)
   - [x] [Catppuccin](https://github.com/catppuccin)
   - [x] [daltonmenezes/aura-theme](https://github.com/daltonmenezes/aura-theme)
-  - ~~[ ] [akamud/vscode-theme-onelight](https://github.com/akamud/vscode-theme-onelight) & [Vscode One Night](https://github.com/akamud/vscode-theme-onedark)~~
+  - [ ] ~~[akamud/vscode-theme-onelight](https://github.com/akamud/vscode-theme-onelight) & [Vscode One Night](https://github.com/akamud/vscode-theme-onedark)~~
+- Develop a Chinese documentaion
+- Make a presentable code documentaion
+- Add screenshots
+
 
 ## Support development
 
