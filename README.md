@@ -32,6 +32,10 @@ The font is inhenited from the system.
   - [Macchiato](/src/styles/css/catppuccin-macchiato.css)
   - [Mocha](/src/styles/css/catppuccin-mocha.css)
 
+- [Aura](https://github.com/daltonmenezes/aura-theme)
+  - [Dark](/src/styles/css/aura-dark.css)
+  - [Dark soft](/src/styles/css/aura-dark-soft.css)
+
 <!-- ## Instructions
 
 1. Create a new note type (See [Adding a note type](https://docs.ankiweb.net/editing.html#adding-a-note-type))
@@ -46,12 +50,12 @@ The font is inhenited from the system.
 - [ ] Make a presentable code documentaion
 - [ ] Add screenshots
 - Add planned themes
-  - [x] [One Dark Pro](https://github.com/Binaryify/OneDark-Pro) (including vivid version)
+  - [x] [One Dark Pro](https://github.com/Binaryify/OneDark-Pro)
   - [x] [Sainnhe/Everforest](https://github.com/sainnhe/everforest)
   - [x] [loctvl842/monokai-pro.nvim](https://github.com/loctvl842/monokai-pro.nvim)
-  ~~- [ ] [akamud/vscode-theme-onelight](https://github.com/akamud/vscode-theme-onelight) & [Vscode One Night](https://github.com/akamud/vscode-theme-onedark)~~
   - [x] [Catppuccin](https://github.com/catppuccin)
-  - [ ] [daltonmenezes/aura-theme](https://github.com/daltonmenezes/aura-theme)
+  - [x] [daltonmenezes/aura-theme](https://github.com/daltonmenezes/aura-theme)
+  ~~- [ ] [akamud/vscode-theme-onelight](https://github.com/akamud/vscode-theme-onelight) & [Vscode One Night](https://github.com/akamud/vscode-theme-onedark)~~
 
 ## Support development
 
