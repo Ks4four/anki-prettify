@@ -10,10 +10,12 @@ Many Anki users spend many time studying flashcards, similar to developers worki
 
 The font is inhenited from the system.
 
-| Original                                          | Download                                        |
-| ---------------------------------------------- | ----------------------------------------------- |
-| [Binaryify/OneDark-Pro](https://github.com/Binaryify/OneDark-Pro) | [one-dark-pro.css](/src/styles/css/one-dark-pro-vivid.css) |
-|[Binaryify/OneDark-Pro with vivid enabled](https://cdn.jsdelivr.net/gh/binaryify/onedark-pro/screenshots/color.png)|[one-dark-pro-vivid.css](/src/styles/css/one-dark-pro-vivid.css)|
+- [one-dark-pro.css](/src/styles/css/one-dark-pro-vivid.css) | [Binaryify/OneDark-Pro](https://github.com/Binaryify/OneDark-Pro)
+- [one-dark-pro-vivid.css](/src/styles/css/one-dark-pro-vivid.css) | [Binaryify/OneDark-Pro with vivid enabled](https://cdn.jsdelivr.net/gh/binaryify/onedark-pro/screenshots/color.png)
+- [Sainnhe/Everforest](https://github.com/sainnhe/everforest)
+  - [Everforest Hard](/src/styles/css/everforest-hard.css)
+  - [Everforest Medium](/src/styles/css/everforest-medium.css)
+  - [Everforest Soft](/src/styles/css/everforest-soft.css)
 
 <!-- ## Instructions
 
