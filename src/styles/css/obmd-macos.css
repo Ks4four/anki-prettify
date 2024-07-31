@@ -51,8 +51,8 @@
   background-color: var(--card-bg);
   --text-fg: var(--tx1);
   --text-fg-faint: var(--tx1);
-  --text-bg-selected: var(--bg2);
-  --card-bg: var(--bg2);
+  --text-bg-selected: var(--hl1);
+  --card-bg: var(--bg1);
   --card-border: transparent;
   --card-box-shadow: transparent;
   --divider: var(--ui1);
@@ -98,8 +98,8 @@
   background-color: var(--card-bg);
   --text-fg: var(--tx1);
   --text-fg-faint: var(--tx1);
-  --text-bg-selected: var(--bg2);
-  --card-bg: var(--bg2);
+  --text-bg-selected: var(--hl1);
+  --card-bg: var(--bg1);
   --card-border: transparent;
   --card-box-shadow: transparent;
   --divider: var(--ui1);
