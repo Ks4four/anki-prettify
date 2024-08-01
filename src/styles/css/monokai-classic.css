@@ -13,6 +13,8 @@
 
 /* -------------------------------------------------- COLORS */
 :root {
+  --dark2: #161613;
+  --dark1: #1d1e19;
   --background: #272822;
   --text: #fdfff1;
   --accent1: #f92672;
@@ -23,32 +25,36 @@
   --accent6: #ae81ff;
   --dimmed1: #c0c1b5;
   --dimmed2: #919288;
+  --dimmed3: #6e7066;
+  --dimmed4: #57584f;
+  --dimmed5: #3b3c35;
 }
 
 .card {
+  background-color: var(--card-bg);
   --text-fg: var(--text);
-  --text-fg-faint: var(--dimmed1);
-  --text-bg-selected: var(--dimmed2);
+  --text-fg-faint: var(--text);
+  --text-bg-selected: var(--dimmed5);
   --card-bg: var(--background);
-  --card-border: var(--dimmed2);
+  --card-border: transparent;
+  --card-box-shadow: transparent;
   --divider: var(--text-fg);
-  --tag-fg: var(--text-fg);
-  --tag-bg: var(--card-bg);
+  --tag-fg: var(--dimmed3);
+  --tag-bg: transparent;
   --tag-fg-active: var(--text-fg);
-  --tag-bg-active: var(--card-bg);
-  --tag-border: var(--text-fg-faint);
+  --tag-bg-active: transparent;
+  --tag-border: var(--dimmed5);
   --tag-border-active: var(--text-fg);
-  --cloze-fg: var(--accent4);
+  --cloze-fg: var(--accent6);
   --cloze-bg: transparent;
-  --link-fg: var(--accent5);
+  --link-fg: var(--accent4);
   --link-bg: transparent;
   --link-fg-active: var(--accent3);
   --link-bg-active: transparent;
-  --bold-fg: var(--accent2);
-  --italic-fg: var(--accent6);
-  --bold-italic-fg: var(--accent1);
-  --underline-fg: var(--accent4);
-  background-color: var(--card-bg);
+  --bold-fg: var(--accent1);
+  --italic-fg: var(--accent5);
+  --bold-italic-fg: var(--accent2);
+  --underline-fg: var(--text);
 }
 
 
