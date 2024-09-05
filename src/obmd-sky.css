@@ -1,0 +1,99 @@
+.card {
+  --color-red: #b4637a;
+  --color-orange: #d7827e;
+  --color-yellow: #ea9d34;
+  --color-green: #286983;
+  --color-cyan: #56949f;
+  --color-blue: #56949f;
+  --color-purple: #907aa9;
+  --color-pink: #907aa9;
+  --base-h: 39;
+  --base-s: 18%;
+  --base-d: 96%;
+  --accent-h: 197;
+  --accent-s: 71%;
+  --accent-l: 52%;
+  --bg2: #f7f6f4;
+  --bg3: #e8e7e4;
+  --ui1: #ededec;
+  --ui2: #dbdbda;
+  --ui3: #aaa9a5;
+  --tx1: #37352f;
+  --tx2: #72706c;
+  --tx3: #aaa9a5;
+
+  background-color: var(--bg1);
+
+  --text-fg: var(--tx1);
+  --text-fg-faint: var(--ui3);
+  --text-bg-selected: var(--ui2);
+  --card-bg: var(--bg1);
+  --card-border: var(--ui2);
+  --card-box-shadow: transparent;
+  --divider: var(--ui1);
+  --tag-fg: var(--bg1);
+  --tag-bg: transparent;
+  --tag-fg-active: var(--color-blue);
+  --tag-bg-active: var(--color-purple);
+  --tag-border: var(--ui1);
+  --tag-border-active: var(--tag-fg-active);
+  --cloze-fg: var(--color-green);
+  --cloze-bg: transparent;
+  --link-fg: hsl(var(--accent-h) var(--accent-s) var(--accent-l));
+  --link-bg: transparent;
+  --link-fg-active: hsl(var(--accent-h)
+      var(--accent-s)
+      calc(var(--accent-l) + 8%));
+  --link-bg-active: transparent;
+  --bold-fg: var(--tx1);
+  --italic-fg: var(--tx1);
+  --bold-italic-fg: var(--tx1);
+  --underline-fg: var(--tx1);
+}
+
+.card.night_mode {
+  --base-h: 203;
+  --base-s: 8%;
+  --base-d: 20%;
+  --accent-h: 197;
+  --accent-s: 71%;
+  --accent-l: 52%;
+  --bg1: #2f3437;
+  --bg2: #373c3f;
+  --bg3: #4b5053;
+  --ui1: #3e4245;
+  --ui2: #585d5f;
+  --ui3: #585d5f;
+  --tx1: #ebebeb;
+  --tx2: #909295;
+  --tx3: #585d5f;
+
+  background-color: var(--bg1);
+
+  --text-fg: var(--tx1);
+  --text-fg-faint: var(--ui3);
+  --text-bg-selected: var(--ui2);
+  --card-bg: var(--bg1);
+  --card-border: var(--ui2);
+  --card-box-shadow: transparent;
+  --divider: var(--ui1);
+  --tag-fg: var(--bg1);
+  --tag-bg: transparent;
+  --tag-fg-active: var(--color-blue);
+  --tag-bg-active: var(--color-purple);
+  --tag-border: var(--ui1);
+  --tag-border-active: var(--tag-fg-active);
+  --cloze-fg: var(--color-green);
+  --cloze-bg: transparent;
+  --link-fg: hsl(var(--accent-h) var(--accent-s) var(--accent-l));
+  --link-bg: transparent;
+  --link-fg-active: hsl(var(--accent-h)
+      var(--accent-s)
+      calc(var(--accent-l) + 8%));
+  --link-bg-active: transparent;
+  --bold-fg: var(--tx1);
+  --italic-fg: var(--tx1);
+  --bold-italic-fg: var(--tx1);
+  --underline-fg: var(--tx1);
+}
+

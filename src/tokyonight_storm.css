@@ -1,0 +1,79 @@
+:root {
+  --light-bg-highlight: #c4c8da;
+  --light-bg: #e1e2e7;
+  --dark-bg-highlight: #292e42;
+  --dark-bg: #24283b;
+  --light-fg: #3760bf;
+  --light-red: #f52a65;
+  --light-orange: #b15c00;
+  --light-yellow: #8c6c3e;
+  --light-green: #587539;
+  --light-green1: #387068;
+  --light-blue: #2e7de9;
+  --light-purple: #7847bd;
+  --light-comment: #848cb5;
+  --dark-fg: #c0caf5;
+  --dark-red: #f7768e;
+  --dark-orange: #ff9e64;
+  --dark-yellow: #e0af68;
+  --dark-green: #9ece6a;
+  --dark-green1: #73daca;
+  --dark-blue: #7aa2f7;
+  --dark-purple: #9d7cd8;
+  --dark-comment: #565f89;
+}
+
+.card {
+  --text-fg: var(--light-fg);
+  --text-fg-faint: var(--light-comment);
+  --text-bg-selected: var(--light-bg-highlight);
+  --card-bg: var(--light-bg);
+  --card-border: var(--text-fg-faint);
+  --divider: var(--text-fg);
+  --tag-fg: var(--text-fg);
+  --tag-bg: var(--card-bg);
+  --tag-fg-active: var(--text-fg);
+  --tag-bg-active: var(--card-bg);
+  --tag-border: var(--text-fg-faint);
+  --tag-border-active: var(--text-fg);
+  --cloze-fg: var(--light-green1);
+  --cloze-bg: transparent;
+  --link-fg: var(--light-blue);
+  --link-bg: transparent;
+  --link-fg-active: var(--link-fg);
+  --link-bg-active: transparent;
+  --bold-fg: var(--light-orange);
+  --italic-fg: var(--light-purple);
+  --bold-italic-fg: var(--light-red);
+  --underline-fg: var(--light-green);
+
+  background-color: var(--card-bg);
+}
+
+.card.night_mode {
+  --text-fg: var(--dark-fg);
+  --text-fg-faint: var(--dark-comment);
+  --text-bg-selected: var(--dark-bg-highlight);
+  --card-bg: var(--dark-bg);
+  --card-border: var(--text-fg-faint);
+  --divider: var(--text-fg);
+  --tag-fg: var(--text-fg);
+  --tag-bg: var(--card-bg);
+  --tag-fg-active: var(--text-fg);
+  --tag-bg-active: var(--card-bg);
+  --tag-border: var(--text-fg-faint);
+  --tag-border-active: var(--text-fg);
+  --cloze-fg: var(--dark-green1);
+  --cloze-bg: transparent;
+  --link-fg: var(--dark-blue);
+  --link-bg: transparent;
+  --link-fg-active: var(--link-fg);
+  --link-bg-active: transparent;
+  --bold-fg: var(--dark-orange);
+  --italic-fg: var(--dark-purple);
+  --bold-italic-fg: var(--dark-red);
+  --underline-fg: var(--dark-green);
+
+  background-color: var(--card-bg);
+}
+

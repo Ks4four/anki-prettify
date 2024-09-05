@@ -1,0 +1,45 @@
+/* 
+https://github.com/daltonmenezes/aura-theme/blob/main/packages/color-palettes/aura-colors.css
+*/
+
+:root {
+  --black-soft: #020202;
+  --white-soft: #bdbdbd;
+  --gray-soft: #6d6d6d;
+  --purple-soft: #8464c6;
+  --purple-fading-soft: #3d375e7f;
+  --green-soft: #54c59f;
+  --orange-soft: #c7a06f;
+  --pink-soft: #c17ac8;
+  --blue-soft: #6cb2c7;
+  --red-soft: #c55858;
+}
+
+.card,
+.card.night_mode {
+  --text-fg: var(--white-soft);
+  --text-fg-faint: var(--white-soft);
+  --text-bg-selected: var(--purple-fading-soft);
+  --card-bg: var(--black-soft);
+  --card-border: var(--card-bg);
+  --card-box-shadow: transparent;
+  --divider: var(--white-soft);
+  --tag-fg: var(--blue-soft);
+  --tag-bg: var(--card-bg);
+  --tag-fg-active: var(--purple-soft);
+  --tag-bg-active: var(--card-bg);
+  --tag-border: var(--gray-soft);
+  --tag-border-active: var(--text-fg);
+  --cloze-fg: var(--blue-soft);
+  --cloze-bg: transparent;
+  --link-fg: var(--blue-soft);
+  --link-bg: transparent;
+  --link-fg-active: var(--purple-soft);
+  --link-bg-active: transparent;
+  --bold-fg: var(--orange-soft);
+  --italic-fg: var(--pink-soft);
+  --bold-italic-fg: var(--red-soft);
+  --underline-fg: var(--green-soft);
+
+  background-color: var(--black-soft);
+}

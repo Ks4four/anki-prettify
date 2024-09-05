@@ -1,0 +1,117 @@
+/* 
+https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md
+https://unpkg.com/@catppuccin/palette@1.2.0/css/catppuccin.css
+*/
+
+:root {
+  --ctp-latte-rosewater: #dc8a78;
+  --ctp-latte-flamingo: #dd7878;
+  --ctp-latte-pink: #ea76cb;
+  --ctp-latte-mauve: #8839ef;
+  --ctp-latte-red: #d20f39;
+  --ctp-latte-maroon: #e64553;
+  --ctp-latte-peach: #fe640b;
+  --ctp-latte-yellow: #df8e1d;
+  --ctp-latte-green: #40a02b;
+  --ctp-latte-teal: #179299;
+  --ctp-latte-sky: #04a5e5;
+  --ctp-latte-sapphire: #209fb5;
+  --ctp-latte-blue: #1e66f5;
+  --ctp-latte-lavender: #7287fd;
+  --ctp-latte-text: #4c4f69;
+  --ctp-latte-subtext1: #5c5f77;
+  --ctp-latte-subtext0: #6c6f85;
+  --ctp-latte-overlay2: #7c7f93;
+  --ctp-latte-overlay1: #8c8fa1;
+  --ctp-latte-overlay0: #9ca0b0;
+  --ctp-latte-surface2: #acb0be;
+  --ctp-latte-surface2-rgb: 172,176,190;
+  --ctp-latte-surface1: #bcc0cc;
+  --ctp-latte-surface0: #ccd0da;
+  --ctp-latte-base: #eff1f5;
+  --ctp-latte-mantle: #e6e9ef;
+  --ctp-latte-crust: #dce0e8;
+  --ctp-macchiato-rosewater: #f4dbd6;
+  --ctp-macchiato-flamingo: #f0c6c6;
+  --ctp-macchiato-pink: #f5bde6;
+  --ctp-macchiato-mauve: #c6a0f6;
+  --ctp-macchiato-red: #ed8796;
+  --ctp-macchiato-maroon: #ee99a0;
+  --ctp-macchiato-peach: #f5a97f;
+  --ctp-macchiato-yellow: #eed49f;
+  --ctp-macchiato-green: #a6da95;
+  --ctp-macchiato-teal: #8bd5ca;
+  --ctp-macchiato-sky: #91d7e3;
+  --ctp-macchiato-sapphire: #7dc4e4;
+  --ctp-macchiato-blue: #8aadf4;
+  --ctp-macchiato-lavender: #b7bdf8;
+  --ctp-macchiato-text: #cad3f5;
+  --ctp-macchiato-subtext1: #b8c0e0;
+  --ctp-macchiato-subtext0: #a5adcb;
+  --ctp-macchiato-overlay2: #939ab7;
+  --ctp-macchiato-overlay1: #8087a2;
+  --ctp-macchiato-overlay0: #6e738d;
+  --ctp-macchiato-surface2: #5b6078;
+  --ctp-macchiato-surface2-rgb: 91,96,120;
+  --ctp-macchiato-surface1: #494d64;
+  --ctp-macchiato-surface0: #363a4f;
+  --ctp-macchiato-base: #24273a;
+  --ctp-macchiato-mantle: #1e2030;
+  --ctp-macchiato-crust: #181926;
+}
+
+.card {
+  --text-fg: var(--ctp-latte-text);
+  --text-fg-faint: var(--ctp-latte-subtext1);
+  --text-bg-selected: rgba(var(--ctp-latte-surface2-rgb), calc(0.2));
+  --card-bg: var(--ctp-latte-base);
+  --card-border: var(--card-bg);
+  --card-box-shadow: transparent;
+  --divider: var(--text-fg);
+  --tag-fg: var(--ctp-latte-blue);
+  --tag-bg: var(--card-bg);
+  --tag-fg-active: var(--text-fg);
+  --tag-bg-active: var(--card-bg);
+  --tag-border: var(--ctp-latte-overlay0);
+  --tag-border-active: var(--ctp-latte-lavender);
+  --cloze-fg: var(--ctp-latte-mauve);
+  --cloze-bg: transparent;
+  --link-fg: var(--ctp-latte-blue);
+  --link-bg: transparent;
+  --link-fg-active: var(--ctp-latte-lavender);
+  --link-bg-active: transparent;
+  --bold-fg: var(--ctp-latte-peach);
+  --italic-fg: var(--ctp-latte-pink);
+  --bold-italic-fg: var(--ctp-latte-maroon);
+  --underline-fg: var(--ctp-latte-green);
+
+  background-color: var(--card-bg);
+}
+
+.card.night_mode {
+  --text-fg: var(--ctp-macchiato-text);
+  --text-fg-faint: var(--ctp-macchiato-subtext1);
+  --text-bg-selected: rgba(var(--ctp-macchiato-surface2-rgb), calc(0.2));
+  --card-bg: var(--ctp-macchiato-base);
+  --card-border: var(--card-bg);
+  --card-box-shadow: transparent;
+  --divider: var(--text-fg);
+  --tag-fg: var(--ctp-macchiato-blue);
+  --tag-bg: var(--card-bg);
+  --tag-fg-active: var(--text-fg);
+  --tag-bg-active: var(--card-bg);
+  --tag-border: var(--ctp-macchiato-overlay0);
+  --tag-border-active: var(--ctp-macchiato-lavender);
+  --cloze-fg: var(--ctp-macchiato-mauve);
+  --cloze-bg: transparent;
+  --link-fg: var(--ctp-macchiato-blue);
+  --link-bg: transparent;
+  --link-fg-active: var(--ctp-macchiato-lavender);
+  --link-bg-active: transparent;
+  --bold-fg: var(--ctp-macchiato-peach);
+  --italic-fg: var(--ctp-macchiato-pink);
+  --bold-italic-fg: var(--ctp-macchiato-maroon);
+  --underline-fg: var(--ctp-macchiato-green);
+
+  background-color: var(--card-bg);
+}

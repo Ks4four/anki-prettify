@@ -1,0 +1,105 @@
+.card {
+  --color-red: #FF306C;
+  --color-orange: #ff9502;
+  --color-yellow: #FFD500;
+  --color-green: #4BBF5E;
+  --color-cyan: #49AEA4;
+  --color-purple: #b051de;
+  --color-pink: #ff2e55;
+  --accent-h: 215;
+  --accent-s: 76%;
+  --accent-l: 43%;
+  --bg1: white;
+  --bg2: #f5f6f8;
+  --bg3: rgb(162 177 187 / 25%);
+  --ui1: #eef0f4;
+  --ui2: #D8DADD;
+  --ui3: #c1c3c6;
+  --tx1: #26272b;
+  --tx2: #7D7F84;
+  --tx3: #a9abb0;
+
+  background-color: var(--bg1);
+
+  --text-fg: var(--tx1);
+  --text-fg-faint: var(--ui3);
+  --text-bg-selected: var(--ui2);
+  --card-bg: var(--bg1);
+  --card-border: var(--ui2);
+  --card-box-shadow: transparent;
+  --divider: var(--ui1);
+  --tag-fg: var(--bg1);
+  --tag-bg: transparent;
+  --tag-fg-active: var(--color-blue);
+  --tag-bg-active: var(--color-purple);
+  --tag-border: var(--ui1);
+  --tag-border-active: var(--tag-fg-active);
+  --cloze-fg: var(--color-green);
+  --cloze-bg: transparent;
+  --link-fg: hsl(var(--accent-h) var(--accent-s) var(--accent-l));
+  --link-bg: transparent;
+  --link-fg-active: hsl(var(--accent-h)
+      var(--accent-s)
+      calc(var(--accent-l) + 8%));
+  --link-bg-active: transparent;
+  --bold-fg: var(--tx1);
+  --italic-fg: var(--tx1);
+  --bold-italic-fg: var(--tx1);
+  --underline-fg: var(--tx1);
+}
+
+.card.night_mode {
+  --color-red: #FF306C;
+  --color-orange: #ff9502;
+  --color-yellow: #FFD500;
+  --color-green: #4BBF5E;
+  --color-cyan: #49AEA4;
+  --color-purple: #b051de;
+  --color-pink: #ff2e55;
+  --base-h: 218;
+  --base-s: 9%;
+  --base-l: 15%;
+  --accent-h: 215;
+  --accent-s: 91%;
+  --accent-l: 64%;
+  --bg1: #24262a;
+  --bg2: #202225;
+  --bg3: #3d3f41;
+  --divider-color: #17191c;
+  --tab-outline-color: #17191c;
+  --ui1: #3A3B3F;
+  --ui2: #45464a;
+  --ui3: #6c6e70;
+  --tx1: #fbfbfb;
+  --tx2: #CBCCCD;
+  --tx3: #6c6e70;
+
+  background-color: var(--bg1);
+
+  --text-fg: var(--tx1);
+  --text-fg-faint: var(--ui3);
+  --text-bg-selected: var(--ui2);
+  --card-bg: var(--bg1);
+  --card-border: var(--ui2);
+  --card-box-shadow: transparent;
+  --divider: var(--ui1);
+  --tag-fg: var(--bg1);
+  --tag-bg: transparent;
+  --tag-fg-active: var(--color-blue);
+  --tag-bg-active: var(--color-purple);
+  --tag-border: var(--ui1);
+  --tag-border-active: var(--tag-fg-active);
+  --cloze-fg: var(--color-green);
+  --cloze-bg: transparent;
+  --link-fg: hsl(var(--accent-h) var(--accent-s) var(--accent-l));
+  --link-bg: transparent;
+  --link-fg-active: hsl(var(--accent-h)
+      var(--accent-s)
+      calc(var(--accent-l) + 8%));
+  --link-bg-active: transparent;
+  --bold-fg: var(--tx1);
+  --italic-fg: var(--tx1);
+  --bold-italic-fg: var(--tx1);
+  --underline-fg: var(--tx1);
+}
+

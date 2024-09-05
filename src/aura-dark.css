@@ -1,0 +1,45 @@
+/* 
+https://github.com/daltonmenezes/aura-theme/blob/main/packages/color-palettes/aura-colors.css
+*/
+
+:root {
+    --black: #15141b;
+    --white: #edecee;
+    --gray: #6d6d6d;
+    --purple: #a277ff;
+    --purple-fading: #3d375e7f;
+    --green: #61ffca;
+    --orange: #ffca85;
+    --pink: #f694ff;
+    --blue: #82e2ff;
+    --red: #ff6767;
+}
+
+.card,
+.card.night_mode {
+    --text-fg: var(--white);
+    --text-fg-faint: var(--white);
+    --text-bg-selected: var(--purple-fading);
+    --card-bg: var(--black);
+    --card-border: var(--card-bg);
+    --card-box-shadow: transparent;
+    --divider: var(--white);
+    --tag-fg: var(--blue);
+    --tag-bg: var(--card-bg);
+    --tag-fg-active: var(--purple);
+    --tag-bg-active: var(--card-bg);
+    --tag-border: var(--gray);
+    --tag-border-active: var(--text-fg);
+    --cloze-fg: var(--blue);
+    --cloze-bg: transparent;
+    --link-fg: var(--blue);
+    --link-bg: transparent;
+    --link-fg-active: var(--purple);
+    --link-bg-active: transparent;
+    --bold-fg: var(--orange);
+    --italic-fg: var(--pink);
+    --bold-italic-fg: var(--red);
+    --underline-fg: var(--green);
+
+    background-color: var(--card-bg);
+}

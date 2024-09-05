@@ -1,0 +1,118 @@
+/* 
+https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md
+https://unpkg.com/@catppuccin/palette@1.2.0/css/catppuccin.css
+*/
+
+:root {
+  --ctp-latte-rosewater: #dc8a78;
+  --ctp-latte-flamingo: #dd7878;
+  --ctp-latte-pink: #ea76cb;
+  --ctp-latte-mauve: #8839ef;
+  --ctp-latte-red: #d20f39;
+  --ctp-latte-maroon: #e64553;
+  --ctp-latte-peach: #fe640b;
+  --ctp-latte-yellow: #df8e1d;
+  --ctp-latte-green: #40a02b;
+  --ctp-latte-teal: #179299;
+  --ctp-latte-sky: #04a5e5;
+  --ctp-latte-sapphire: #209fb5;
+  --ctp-latte-blue: #1e66f5;
+  --ctp-latte-lavender: #7287fd;
+  --ctp-latte-text: #4c4f69;
+  --ctp-latte-subtext1: #5c5f77;
+  --ctp-latte-subtext0: #6c6f85;
+  --ctp-latte-overlay2: #7c7f93;
+  --ctp-latte-overlay1: #8c8fa1;
+  --ctp-latte-overlay0: #9ca0b0;
+  --ctp-latte-surface2: #acb0be;
+  --ctp-latte-surface2-rgb: 172,176,190;
+  --ctp-latte-surface1: #bcc0cc;
+  --ctp-latte-surface0: #ccd0da;
+  --ctp-latte-base: #eff1f5;
+  --ctp-latte-mantle: #e6e9ef;
+  --ctp-latte-crust: #dce0e8;
+  --ctp-mocha-rosewater: #f5e0dc;
+  --ctp-mocha-flamingo: #f2cdcd;
+  --ctp-mocha-pink: #f5c2e7;
+  --ctp-mocha-mauve: #cba6f7;
+  --ctp-mocha-red: #f38ba8;
+  --ctp-mocha-maroon: #eba0ac;
+  --ctp-mocha-peach: #fab387;
+  --ctp-mocha-yellow: #f9e2af;
+  --ctp-mocha-green: #a6e3a1;
+  --ctp-mocha-teal: #94e2d5;
+  --ctp-mocha-sky: #89dceb;
+  --ctp-mocha-sapphire: #74c7ec;
+  --ctp-mocha-blue: #89b4fa;
+  --ctp-mocha-lavender: #b4befe;
+  --ctp-mocha-text: #cdd6f4;
+  --ctp-mocha-subtext1: #bac2de;
+  --ctp-mocha-subtext0: #a6adc8;
+  --ctp-mocha-overlay2: #9399b2;
+  --ctp-mocha-overlay1: #7f849c;
+  --ctp-mocha-overlay0: #6c7086;
+  --ctp-mocha-surface2: #585b70;
+  --ctp-mocha-surface2-rgb: 88,91,112;
+  --ctp-mocha-surface1: #45475a;
+  --ctp-mocha-surface0: #313244;
+  --ctp-mocha-base: #1e1e2e;
+  --ctp-mocha-mantle: #181825;
+  --ctp-mocha-crust: #11111b;
+
+}
+
+.card {
+  --text-fg: var(--ctp-latte-text);
+  --text-fg-faint: var(--ctp-latte-subtext1);
+  --text-bg-selected: rgba(var(--ctp-latte-surface2-rgb), calc(0.2));
+  --card-bg: var(--ctp-latte-base);
+  --card-border: var(--card-bg);
+  --card-box-shadow: transparent;
+  --divider: var(--text-fg);
+  --tag-fg: var(--ctp-latte-blue);
+  --tag-bg: var(--card-bg);
+  --tag-fg-active: var(--text-fg);
+  --tag-bg-active: var(--card-bg);
+  --tag-border: var(--ctp-latte-overlay0);
+  --tag-border-active: var(--ctp-latte-lavender);
+  --cloze-fg: var(--ctp-latte-mauve);
+  --cloze-bg: transparent;
+  --link-fg: var(--ctp-latte-blue);
+  --link-bg: transparent;
+  --link-fg-active: var(--ctp-latte-lavender);
+  --link-bg-active: transparent;
+  --bold-fg: var(--ctp-latte-peach);
+  --italic-fg: var(--ctp-latte-pink);
+  --bold-italic-fg: var(--ctp-latte-maroon);
+  --underline-fg: var(--ctp-latte-green);
+
+  background-color: var(--card-bg);
+}
+
+.card.night_mode {
+  --text-fg: var(--ctp-mocha-text);
+  --text-fg-faint: var(--ctp-mocha-subtext1);
+  --text-bg-selected: rgba(var(--ctp-mocha-surface2-rgb), calc(0.2));
+  --card-bg: var(--ctp-mocha-base);
+  --card-border: var(--card-bg);
+  --card-box-shadow: transparent;
+  --divider: var(--text-fg);
+  --tag-fg: var(--ctp-mocha-blue);
+  --tag-bg: var(--card-bg);
+  --tag-fg-active: var(--text-fg);
+  --tag-bg-active: var(--card-bg);
+  --tag-border: var(--ctp-mocha-overlay0);
+  --tag-border-active: var(--ctp-mocha-lavender);
+  --cloze-fg: var(--ctp-mocha-mauve);
+  --cloze-bg: transparent;
+  --link-fg: var(--ctp-mocha-blue);
+  --link-bg: transparent;
+  --link-fg-active: var(--ctp-mocha-lavender);
+  --link-bg-active: transparent;
+  --bold-fg: var(--ctp-mocha-peach);
+  --italic-fg: var(--ctp-mocha-pink);
+  --bold-italic-fg: var(--ctp-mocha-maroon);
+  --underline-fg: var(--ctp-mocha-green);
+
+  background-color: var(--card-bg);
+}

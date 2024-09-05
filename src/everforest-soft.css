@@ -1,0 +1,78 @@
+:root {
+  --light-bg-dim: #e5dfc5;
+  --light-bg0: #f3ead3;
+  --dark-bg-dim: #293136;
+  --dark-bg0: #333c43;
+  --light-fg: #5c6a72;
+  --light-red: #f85552;
+  --light-orange: #f57d26;
+  --light-yellow: #dfa000;
+  --light-green: #8da101;
+  --light-aqua: #35a77c;
+  --light-blue: #3a94c5;
+  --light-purple: #df69ba;
+  --light-grey1: #939f91;
+  --dark-fg: #d3c6aa;
+  --dark-red: #e67e80;
+  --dark-orange: #e69875;
+  --dark-yellow: #dbbc7f;
+  --dark-green: #a7c080;
+  --dark-aqua: #83c092;
+  --dark-blue: #7fbbb3;
+  --dark-purple: #d699b6;
+  --dark-grey1: #859289;
+}
+
+.card {
+  --text-fg: var(--light-fg);
+  --text-fg-faint: var(--light-grey1);
+  --text-bg-selected: var(--light-bg-dim);
+  --card-bg: var(--light-bg0);
+  --card-border: var(--text-fg-faint);
+  --divider: var(--text-fg);
+  --tag-fg: var(--text-fg);
+  --tag-bg: var(--card-bg);
+  --tag-fg-active: var(--text-fg);
+  --tag-bg-active: var(--card-bg);
+  --tag-border: var(--text-fg-faint);
+  --tag-border-active: var(--text-fg);
+  --cloze-fg: var(--light-aqua);
+  --cloze-bg: transparent;
+  --link-fg: var(--light-blue);
+  --link-bg: transparent;
+  --link-fg-active: var(--link-fg);
+  --link-bg-active: transparent;
+  --bold-fg: var(--light-orange);
+  --italic-fg: var(--light-purple);
+  --bold-italic-fg: var(--light-red);
+  --underline-fg: var(--light-green);
+  
+  background-color: var(--card-bg);
+}
+
+.card.night_mode {
+  --text-fg: var(--dark-fg);
+  --text-fg-faint: var(--dark-grey1);
+  --text-bg-selected: var(--dark-bg-dim);
+  --card-bg: var(--dark-bg0);
+  --card-border: var(--text-fg-faint);
+  --divider: var(--text-fg);
+  --tag-fg: var(--text-fg);
+  --tag-bg: var(--card-bg);
+  --tag-fg-active: var(--text-fg);
+  --tag-bg-active: var(--card-bg);
+  --tag-border: var(--text-fg-faint);
+  --tag-border-active: var(--text-fg);
+  --cloze-fg: var(--dark-aqua);
+  --cloze-bg: transparent;
+  --link-fg: var(--dark-blue);
+  --link-bg: transparent;
+  --link-fg-active: var(--link-fg);
+  --link-bg-active: transparent;
+  --bold-fg: var(--dark-orange);
+  --italic-fg: var(--dark-purple);
+  --bold-italic-fg: var(--dark-red);
+  --underline-fg: var(--dark-green);
+  
+  background-color: var(--card-bg);
+}

@@ -1,0 +1,39 @@
+:root {
+  --background: #2c2525;
+  --text: #fff1f3;
+  --accent1: #fd6883;
+  --accent2: #f38d70;
+  --accent3: #f9cc6c;
+  --accent4: #adda78;
+  --accent5: #85dacc;
+  --accent6: #a8a9eb;
+  --dimmed1: #c3b7b8;
+  --dimmed2: #948a8b;
+}
+
+.card,.card.night_mode {
+  --text-fg: var(--text);
+  --text-fg-faint: var(--dimmed1);
+  --text-bg-selected: var(--dimmed2);
+  --card-bg: var(--background);
+  --card-border: var(--dimmed2);
+  --divider: var(--text-fg);
+  --tag-fg: var(--text-fg);
+  --tag-bg: var(--card-bg);
+  --tag-fg-active: var(--text-fg);
+  --tag-bg-active: var(--card-bg);
+  --tag-border: var(--text-fg-faint);
+  --tag-border-active: var(--text-fg);
+  --cloze-fg: var(--accent4);
+  --cloze-bg: transparent;
+  --link-fg: var(--accent5);
+  --link-bg: transparent;
+  --link-fg-active: var(--accent3);
+  --link-bg-active: transparent;
+  --bold-fg: var(--accent2);
+  --italic-fg: var(--accent6);
+  --bold-italic-fg: var(--accent1);
+  --underline-fg: var(--accent4);
+  
+  background-color: var(--card-bg);
+}
