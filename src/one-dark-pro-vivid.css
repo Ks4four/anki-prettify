@@ -1,58 +1,50 @@
-.card {
-  /* Light = One Dark Pro vivid */
-  --text-fg: #abb2bf;
+/* https://binaryify.github.io/OneDark-Pro/#/?id=highlight-color-custom */
 
-  /* from vscode */
-  --text-fg-faint: #818896;
+:root {
+  --base: #282c34;
+  --mono-1: #abb2bf;
+  --mono-2: #818896;
+  --mono-3: #5c6370;
+  --hue-1: #2bbac5;
+  --hue-2: #61afef;
+  --hue-3: #d55fde;
+  --hue-4: #89ca78;
+  --hue-5: #ef596f;
+  --hue-5-2: #be5046;
+  --hue-6: #d19a66;
+  --hue-6-2: #e5c07b;
+}
 
-  /* from vscode */
-  --text-bg-selected: #5c6370;
+.card,.card.night_mode {
+  background-color: var(--base);
 
-  /* dark */
-  --card-bg: #282c34;
-
-  /* from vscode */
-  --card-border: #818896;
-
-  /* from vscode */
-  --divider: var(--text-fg);
-  --tag-fg: var(--text-fg);
-  --tag-bg: var(--card-bg);
-  --tag-fg-active: var(--text-fg);
-  --tag-bg-active: var(--card-bg);
-  --tag-border: var(--text-fg-faint);
-  --tag-border-active: var(--text-fg);
-  --cloze-fg: #2bbac5;
-
-  /* fountainBlue */
+  --text-fg: var(--mono-1);
+  --text-fg-faint: var(--mono-1);
+  --text-bg-selected: var(--mono-3);
+  --card-bg: var(--base);
+  --card-border: transparent;
+  --card-box-shadow: transparent;
+  --divider: var(--mono-1);
+  --tag-fg: var(--mono-1);
+  --tag-bg: transparent;
+  --tag-fg-active: var(--mono-1);
+  --tag-bg-active: transparent;
+  --tag-border: var(--mono-3);
+  --tag-border-active:var(--mono-1);
+  --cloze-fg: var(--hue-4);
   --cloze-bg: transparent;
-  --link-fg: #61afef;
-
-  /* malibu */
+  --link-fg: var(--hue-2);
   --link-bg: transparent;
-  --link-fg-active: var(--link-fg);
+  --link-fg-active: var(--hue-3);
   --link-bg-active: transparent;
-  --bold-fg: #d19a66;
-
-  /* whiskey */
-  --italic-fg: #d55fde;
-
-  /* purple */
-  --bold-italic-fg: #ef596f;
-
-  /* coral */
-  --underline-fg: #89ca78;
-
-  /* green */
-  background-color: var(--card-bg);
+  --bold-fg: var(--hue-5-2);
+  --italic-fg: var(--hue-1);
+  --bold-italic-fg: var(--hue-6);
+  --underline-fg: var(--hue-4);
 }
 
 .card.night_mode {
-  /* Night = One Dark Pro Darker */
+  background-color: #23272e;
+  
   --card-bg: #23272e;
-  --tag-bg: var(--card-bg);
-  --tag-bg-active: var(--card-bg);
-
-  background-color: var(--card-bg);
 }
-
