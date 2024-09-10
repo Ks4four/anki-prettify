@@ -1,0 +1,91 @@
+:root {
+  /* Rose Pine */
+  --rp-base: #191724;
+  --rp-surface: #1f1d2e;
+  --rp-overlay: #26233a;
+  --rp-muted: #6e6a86;
+  --rp-subtle: #908caa;
+  --rp-text: #e0def4;
+  --rp-love: #eb6f92;
+  --rp-gold: #f6c177;
+  --rp-rose: #ebbcba;
+  --rp-pine: #31748f;
+  --rp-foam: #9ccfd8;
+  --rp-iris: #c4a7e7;
+  --rp-highlight-low: #21202e;
+  --rp-highlight-med: #403d52;
+  --rp-highlight-high: #524f67;
+
+  /* Rose Pine Dawn */
+  --rpd-base: #faf4ed;
+  --rpd-surface: #fffaf3;
+  --rpd-overlay: #f2e9e1;
+  --rpd-muted: #9893a5;
+  --rpd-subtle: #797593;
+  --rpd-text: #575279;
+  --rpd-love: #b4637a;
+  --rpd-gold: #ea9d34;
+  --rpd-rose: #d7827e;
+  --rpd-pine: #286983;
+  --rpd-foam: #56949f;
+  --rpd-iris: #907aa9;
+  --rpd-highlight-low: #f4ede8;
+  --rpd-highlight-med: #dfdad9;
+  --rpd-highlight-high: #cecacd;
+}
+
+.card {
+  background-color: var(--rpd-base);
+
+  --text-fg: var(--rpd-text);
+  --text-fg-faint: var(--text-fg);
+  --text-bg-selected: var(--rpd-highlight-med);
+  --card-bg: var(--rpd-base);
+  --card-border: transparent;
+  --card-box-shadow: transparent;
+  --divider: var(--rpd-highlight-high);
+  --tag-fg: var(--rpd-foam);
+  --tag-bg: var(--rpd-surface);
+  --tag-fg-active: var(--rpd-foam);
+  --tag-bg-active: var(--rpd-overlay);
+  --tag-border: var(--rpd-highlight-high);
+  --tag-border-active: var(--tag-bg-active);
+  --cloze-fg: var(--rpd-pine);
+  --cloze-bg: transparent;
+  --link-fg: var(--rpd-iris);
+  --link-bg: transparent;
+  --link-fg-active: var(--rpd-iris);
+  --link-bg-active: var(--rpd-surface);
+  --bold-fg: var(--rpd-love);
+  --italic-fg: var(--rpd-gold);
+  --bold-italic-fg: var(--rpd-rose);
+  --underline-fg: var(--text-fg);
+}
+
+.card.night_mode {
+  background-color: var(--rp-base);
+
+  --text-fg: var(--rp-text);
+  --text-fg-faint: var(--text-fg);
+  --text-bg-selected: var(--rp-highlight-med);
+  --card-bg: var(--rp-base);
+  --card-border: transparent;
+  --card-box-shadow: transparent;
+  --divider: var(--rp-highlight-high);
+  --tag-fg: var(--rp-foam);
+  --tag-bg: var(--rp-surface);
+  --tag-fg-active: var(--rp-foam);
+  --tag-bg-active: var(--rp-overlay);
+  --tag-border: var(--rp-highlight-high);
+  --tag-border-active: var(--tag-bg-active);
+  --cloze-fg: var(--rp-pine);
+  --cloze-bg: transparent;
+  --link-fg: var(--rp-iris);
+  --link-bg: transparent;
+  --link-fg-active: var(--rp-iris);
+  --link-bg-active: var(--rp-surface);
+  --bold-fg: var(--rp-love);
+  --italic-fg: var(--rp-gold);
+  --bold-italic-fg: var(--rp-rose);
+  --underline-fg: var(--text-fg);
+}
