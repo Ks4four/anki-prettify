@@ -25,7 +25,7 @@ https://unpkg.com/@catppuccin/palette@1.2.0/css/catppuccin.css
   --ctp-latte-overlay1: #8c8fa1;
   --ctp-latte-overlay0: #9ca0b0;
   --ctp-latte-surface2: #acb0be;
-  --ctp-latte-surface2-rgb: 172,176,190;
+  --ctp-latte-surface2-rgb: 172, 176, 190;
   --ctp-latte-surface1: #bcc0cc;
   --ctp-latte-surface0: #ccd0da;
   --ctp-latte-base: #eff1f5;
@@ -52,7 +52,7 @@ https://unpkg.com/@catppuccin/palette@1.2.0/css/catppuccin.css
   --ctp-macchiato-overlay1: #8087a2;
   --ctp-macchiato-overlay0: #6e738d;
   --ctp-macchiato-surface2: #5b6078;
-  --ctp-macchiato-surface2-rgb: 91,96,120;
+  --ctp-macchiato-surface2-rgb: 91, 96, 120;
   --ctp-macchiato-surface1: #494d64;
   --ctp-macchiato-surface0: #363a4f;
   --ctp-macchiato-base: #24273a;
@@ -65,7 +65,7 @@ https://unpkg.com/@catppuccin/palette@1.2.0/css/catppuccin.css
   --text-fg-faint: var(--ctp-latte-subtext1);
   --text-bg-selected: rgba(var(--ctp-latte-surface2-rgb), calc(0.2));
   --card-bg: var(--ctp-latte-base);
-  --card-border: var(--card-bg);
+  --card-border: transparent;
   --card-box-shadow: transparent;
   --divider: var(--text-fg);
   --tag-fg: var(--ctp-latte-blue);
@@ -93,7 +93,7 @@ https://unpkg.com/@catppuccin/palette@1.2.0/css/catppuccin.css
   --text-fg-faint: var(--ctp-macchiato-subtext1);
   --text-bg-selected: rgba(var(--ctp-macchiato-surface2-rgb), calc(0.2));
   --card-bg: var(--ctp-macchiato-base);
-  --card-border: var(--card-bg);
+  --card-border: transparent;
   --card-box-shadow: transparent;
   --divider: var(--text-fg);
   --tag-fg: var(--ctp-macchiato-blue);

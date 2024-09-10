@@ -19,7 +19,7 @@
   background-color: var(--base);
 
   --text-fg: var(--mono-1);
-  --text-fg-faint: var(--mono-1);
+  --text-fg-faint: var(--text-fg);
   --text-bg-selected: var(--mono-3);
   --card-bg: var(--base);
   --card-border: transparent;

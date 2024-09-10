@@ -16,9 +16,10 @@
   --dimmed5: #3b3c35;
 }
 
-.card,.card.night_mode {
+.card,
+.card.night_mode {
   --text-fg: var(--text);
-  --text-fg-faint: var(--text);
+  --text-fg-faint: var(--text-fg);
   --text-bg-selected: var(--dimmed5);
   --card-bg: var(--background);
   --card-border: transparent;

@@ -1,99 +1,111 @@
+:root {
+  --light-color-red: #b4637a;
+  --light-color-orange: #d7827e;
+  --light-color-yellow: #ea9d34;
+  --light-color-green: #286983;
+  --light-color-cyan: #56949f;
+  --light-color-blue: #56949f;
+  --light-color-purple: #907aa9;
+  --light-color-pink: #907aa9;
+  --light-base-h: 39;
+  --light-light-base-s: 18%;
+  --light-base-d: 96%;
+  --light-accent-h: 197;
+  --light-accent-s: 71%;
+  --light-accent-l: 52%;
+  --light-bg2: #f7f6f4;
+  --light-bg3: #e8e7e4;
+  --light-ui1: #ededec;
+  --light-ui2: #dbdbda;
+  --light-ui3: #aaa9a5;
+  --light-tx1: #37352f;
+  --light-tx2: #72706c;
+  --light-tx3: #aaa9a5;
+  --dark-color-red: var(--light-color-red);
+  --dark-color-orange: var(--light-color-orange);
+  --dark-color-yellow: var(--light-color-yellow);
+  --dark-color-green: var(--light-color-green);
+  --dark-color-cyan: var(--light-color-cyan);
+  --dark-color-blue: var(--light-color-blue);
+  --dark-color-purple: var(--light-color-purple);
+  --dark-color-pink: var(--light-color-pink);
+  --dark-base-h: 203;
+  --dark-base-s: 8%;
+  --dark-base-d: 20%;
+  --dark-accent-h: 197;
+  --dark-accent-s: 71%;
+  --dark-accent-l: 52%;
+  --dark-bg1: #2f3437;
+  --dark-bg2: #373c3f;
+  --dark-bg3: #4b5053;
+  --dark-ui1: #3e4245;
+  --dark-ui2: #585d5f;
+  --dark-ui3: #585d5f;
+  --dark-tx1: #ebebeb;
+  --dark-tx2: #909295;
+  --dark-tx3: #585d5f;
+}
+
 .card {
-  --color-red: #b4637a;
-  --color-orange: #d7827e;
-  --color-yellow: #ea9d34;
-  --color-green: #286983;
-  --color-cyan: #56949f;
-  --color-blue: #56949f;
-  --color-purple: #907aa9;
-  --color-pink: #907aa9;
-  --base-h: 39;
-  --base-s: 18%;
-  --base-d: 96%;
-  --accent-h: 197;
-  --accent-s: 71%;
-  --accent-l: 52%;
-  --bg2: #f7f6f4;
-  --bg3: #e8e7e4;
-  --ui1: #ededec;
-  --ui2: #dbdbda;
-  --ui3: #aaa9a5;
-  --tx1: #37352f;
-  --tx2: #72706c;
-  --tx3: #aaa9a5;
+  background-color: var(--light-bg1);
 
-  background-color: var(--bg1);
-
-  --text-fg: var(--tx1);
-  --text-fg-faint: var(--ui3);
-  --text-bg-selected: var(--ui2);
-  --card-bg: var(--bg1);
-  --card-border: var(--ui2);
+  --text-fg: var(--light-tx1);
+  --text-fg-faint: var(--text-fg);
+  --text-bg-selected: var(--light-ui2);
+  --card-bg: var(--light-bg1);
+  --card-border: transparent;
   --card-box-shadow: transparent;
-  --divider: var(--ui1);
-  --tag-fg: var(--bg1);
+  --divider: var(--light-tx3);
+  --tag-fg: var(--light-tx1);
   --tag-bg: transparent;
-  --tag-fg-active: var(--color-blue);
-  --tag-bg-active: var(--color-purple);
-  --tag-border: var(--ui1);
+  --tag-fg-active: var(--light-tx1);
+  --tag-bg-active: var(--card-bg);
+  --tag-border: var(--light-tx3);
   --tag-border-active: var(--tag-fg-active);
-  --cloze-fg: var(--color-green);
+  --cloze-fg: var(--light-color-green);
   --cloze-bg: transparent;
-  --link-fg: hsl(var(--accent-h) var(--accent-s) var(--accent-l));
+  --link-fg: hsl(
+    var(--light-accent-h) var(--light-accent-s) var(--light-accent-l)
+  );
   --link-bg: transparent;
-  --link-fg-active: hsl(var(--accent-h)
-      var(--accent-s)
-      calc(var(--accent-l) + 8%));
+  --link-fg-active: hsl(
+    var(--light-accent-h) var(--light-accent-s) calc(var(--light-accent-l) + 8%)
+  );
   --link-bg-active: transparent;
-  --bold-fg: var(--tx1);
-  --italic-fg: var(--tx1);
-  --bold-italic-fg: var(--tx1);
-  --underline-fg: var(--tx1);
+  --bold-fg: var(--light-tx1);
+  --italic-fg: var(--light-tx1);
+  --bold-italic-fg: var(--light-tx1);
+  --underline-fg: var(--light-tx1);
 }
 
 .card.night_mode {
-  --base-h: 203;
-  --base-s: 8%;
-  --base-d: 20%;
-  --accent-h: 197;
-  --accent-s: 71%;
-  --accent-l: 52%;
-  --bg1: #2f3437;
-  --bg2: #373c3f;
-  --bg3: #4b5053;
-  --ui1: #3e4245;
-  --ui2: #585d5f;
-  --ui3: #585d5f;
-  --tx1: #ebebeb;
-  --tx2: #909295;
-  --tx3: #585d5f;
+  background-color: var(--dark-bg1);
 
-  background-color: var(--bg1);
-
-  --text-fg: var(--tx1);
-  --text-fg-faint: var(--ui3);
-  --text-bg-selected: var(--ui2);
-  --card-bg: var(--bg1);
-  --card-border: var(--ui2);
+  --text-fg: var(--dark-tx1);
+  --text-fg-faint: var(--text-fg);
+  --text-bg-selected: var(--dark-tx3);
+  --card-bg: var(--dark-bg1);
+  --card-border: transparent;
   --card-box-shadow: transparent;
-  --divider: var(--ui1);
-  --tag-fg: var(--bg1);
+  --divider: var(--dark-tx3);
+  --tag-fg: var(--dark-tx1);
   --tag-bg: transparent;
-  --tag-fg-active: var(--color-blue);
-  --tag-bg-active: var(--color-purple);
-  --tag-border: var(--ui1);
+  --tag-fg-active: var(--dark-tx1);
+  --tag-bg-active: var(--card-bg);
+  --tag-border: var(--dark-tx3);
   --tag-border-active: var(--tag-fg-active);
-  --cloze-fg: var(--color-green);
+  --cloze-fg: var(--dark-color-green);
   --cloze-bg: transparent;
-  --link-fg: hsl(var(--accent-h) var(--accent-s) var(--accent-l));
+  --link-fg: hsl(
+    var(--dark-accent-h) var(--dark-accent-s) var(--dark-accent-l)
+  );
   --link-bg: transparent;
-  --link-fg-active: hsl(var(--accent-h)
-      var(--accent-s)
-      calc(var(--accent-l) + 8%));
+  --link-fg-active: hsl(
+    var(--dark-accent-h) var(--dark-accent-s) calc(var(--dark-accent-l) + 8%)
+  );
   --link-bg-active: transparent;
-  --bold-fg: var(--tx1);
-  --italic-fg: var(--tx1);
-  --bold-italic-fg: var(--tx1);
-  --underline-fg: var(--tx1);
+  --bold-fg: var(--dark-tx1);
+  --italic-fg: var(--dark-tx1);
+  --bold-italic-fg: var(--dark-tx1);
+  --underline-fg: var(--dark-tx1);
 }
-

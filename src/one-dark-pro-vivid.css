@@ -15,11 +15,12 @@
   --hue-6-2: #e5c07b;
 }
 
-.card,.card.night_mode {
+.card,
+.card.night_mode {
   background-color: var(--base);
 
   --text-fg: var(--mono-1);
-  --text-fg-faint: var(--mono-1);
+  --text-fg-faint: var(--text-fg);
   --text-bg-selected: var(--mono-3);
   --card-bg: var(--base);
   --card-border: transparent;
@@ -30,7 +31,7 @@
   --tag-fg-active: var(--mono-1);
   --tag-bg-active: transparent;
   --tag-border: var(--mono-3);
-  --tag-border-active:var(--mono-1);
+  --tag-border-active: var(--mono-1);
   --cloze-fg: var(--hue-4);
   --cloze-bg: transparent;
   --link-fg: var(--hue-2);
@@ -45,6 +46,6 @@
 
 .card.night_mode {
   background-color: #23272e;
-  
+
   --card-bg: #23272e;
 }

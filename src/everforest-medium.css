@@ -25,10 +25,11 @@
 
 .card {
   --text-fg: var(--light-fg);
-  --text-fg-faint: var(--light-grey1);
+  --text-fg-faint: var(--text-fg);
   --text-bg-selected: var(--light-bg-dim);
   --card-bg: var(--light-bg0);
-  --card-border: var(--text-fg-faint);
+  --card-border: transparent;
+  --card-box-shadow: transparent;
   --divider: var(--text-fg);
   --tag-fg: var(--text-fg);
   --tag-bg: var(--card-bg);
@@ -52,10 +53,11 @@
 
 .card.night_mode {
   --text-fg: var(--dark-fg);
-  --text-fg-faint: var(--dark-grey1);
+  --text-fg-faint: var(--text-fg);
   --text-bg-selected: var(--dark-bg-dim);
   --card-bg: var(--dark-bg0);
-  --card-border: var(--text-fg-faint);
+  --card-border: transparent;
+  --card-box-shadow: transparent;
   --divider: var(--text-fg);
   --tag-fg: var(--text-fg);
   --tag-bg: var(--card-bg);
@@ -73,6 +75,6 @@
   --italic-fg: var(--dark-purple);
   --bold-italic-fg: var(--dark-red);
   --underline-fg: var(--dark-green);
-  
+
   background-color: var(--card-bg);
 }

@@ -38,8 +38,6 @@
   --dark-bg1: #282c34;
   --dark-bg2: #21252c;
   --dark-bg3: #3a3f4b;
-  --dark-divider-color: #181a1f;
-  --dark-tab-outline-color: #181a1f;
   --dark-tx1: #d8dae1;
   --dark-tx2: #898f9d;
   --dark-tx3: #5d6370;
@@ -49,25 +47,27 @@
   background-color: var(--light-bg1);
 
   --text-fg: var(--light-tx1);
-  --text-fg-faint: var(--light-ui3);
+  --text-fg-faint: var(--text-fg);
   --text-bg-selected: var(--light-ui2);
   --card-bg: var(--light-bg1);
   --card-border: transparent;
   --card-box-shadow: transparent;
-  --divider: var(--light-ui1);
+  --divider: var(--light-tx3);
   --tag-fg: var(--light-tx1);
   --tag-bg: transparent;
   --tag-fg-active: var(--light-tx1);
   --tag-bg-active: var(--card-bg);
-  --tag-border: var(--light-ui);
+  --tag-border: var(--light-tx3);
   --tag-border-active: var(--tag-fg-active);
   --cloze-fg: var(--light-color-green);
   --cloze-bg: transparent;
-  --link-fg: hsl(var(--light-accent-h) var(--light-accent-s) var(--light-accent-l));
+  --link-fg: hsl(
+    var(--light-accent-h) var(--light-accent-s) var(--light-accent-l)
+  );
   --link-bg: transparent;
-  --link-fg-active: hsl(var(--light-accent-h)
-      var(--light-accent-s)
-      calc(var(--light-accent-l) + 8%));
+  --link-fg-active: hsl(
+    var(--light-accent-h) var(--light-accent-s) calc(var(--light-accent-l) + 8%)
+  );
   --link-bg-active: transparent;
   --bold-fg: var(--light-tx1);
   --italic-fg: var(--light-tx1);
@@ -79,12 +79,12 @@
   background-color: var(--dark-bg1);
 
   --text-fg: var(--dark-tx1);
-  --text-fg-faint: var(--dark-tx1);
+  --text-fg-faint: var(--text-fg);
   --text-bg-selected: var(--dark-tx3);
   --card-bg: var(--dark-bg1);
   --card-border: transparent;
   --card-box-shadow: transparent;
-  --divider: var(--dark-tx1);
+  --divider: var(--dark-tx3);
   --tag-fg: var(--dark-tx1);
   --tag-bg: transparent;
   --tag-fg-active: var(--dark-tx1);
@@ -93,11 +93,13 @@
   --tag-border-active: var(--tag-fg-active);
   --cloze-fg: var(--dark-color-green);
   --cloze-bg: transparent;
-  --link-fg: hsl(var(--dark-accent-h) var(--dark-accent-s) var(--dark-accent-l));
+  --link-fg: hsl(
+    var(--dark-accent-h) var(--dark-accent-s) var(--dark-accent-l)
+  );
   --link-bg: transparent;
-  --link-fg-active: hsl(var(--dark-accent-h)
-      var(--dark-accent-s)
-      calc(var(--dark-accent-l) + 8%));
+  --link-fg-active: hsl(
+    var(--dark-accent-h) var(--dark-accent-s) calc(var(--dark-accent-l) + 8%)
+  );
   --link-bg-active: transparent;
   --bold-fg: var(--dark-tx1);
   --italic-fg: var(--dark-tx1);

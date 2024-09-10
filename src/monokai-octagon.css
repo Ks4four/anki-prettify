@@ -11,12 +11,14 @@
   --dimmed2: #888d94;
 }
 
-.card,.card.night_mode {
+.card,
+.card.night_mode {
   --text-fg: var(--text);
-  --text-fg-faint: var(--dimmed1);
+  --text-fg-faint: var(--text-fg);
   --text-bg-selected: var(--dimmed2);
   --card-bg: var(--background);
-  --card-border: var(--dimmed2);
+  --card-border: transparent;
+  --card-box-shadow: transparent;
   --divider: var(--text-fg);
   --tag-fg: var(--text-fg);
   --tag-bg: var(--card-bg);
@@ -34,6 +36,6 @@
   --italic-fg: var(--accent6);
   --bold-italic-fg: var(--accent1);
   --underline-fg: var(--accent4);
-  
+
   background-color: var(--card-bg);
 }

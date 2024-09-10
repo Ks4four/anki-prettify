@@ -25,7 +25,7 @@
 
 .card {
   --text-fg: var(--light-fg);
-  --text-fg-faint: var(--light-comment);
+  --text-fg-faint: var(--text-fg);
   --text-bg-selected: var(--light-bg-highlight);
   --card-bg: var(--light-bg);
   --card-border: var(--text-fg-faint);
@@ -52,7 +52,7 @@
 
 .card.night_mode {
   --text-fg: var(--dark-fg);
-  --text-fg-faint: var(--dark-comment);
+  --text-fg-faint: var(--text-fg);
   --text-bg-selected: var(--dark-bg-highlight);
   --card-bg: var(--dark-bg);
   --card-border: var(--text-fg-faint);

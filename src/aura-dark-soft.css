@@ -21,7 +21,7 @@ https://github.com/daltonmenezes/aura-theme/blob/main/packages/color-palettes/au
   --text-fg-faint: var(--white-soft);
   --text-bg-selected: var(--purple-fading-soft);
   --card-bg: var(--black-soft);
-  --card-border: var(--card-bg);
+  --card-border: transparent;
   --card-box-shadow: transparent;
   --divider: var(--white-soft);
   --tag-fg: var(--blue-soft);
