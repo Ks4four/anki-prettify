@@ -67,7 +67,7 @@ https://unpkg.com/@catppuccin/palette@1.2.0/css/catppuccin.css
   --card-bg: var(--ctp-latte-base);
   --card-border: transparent;
   --card-box-shadow: transparent;
-  --divider: var(--text-fg);
+  --divider: var(--ctp-latte-subtext1);
   --tag-fg: var(--ctp-latte-blue);
   --tag-bg: var(--card-bg);
   --tag-fg-active: var(--text-fg);
@@ -95,7 +95,7 @@ https://unpkg.com/@catppuccin/palette@1.2.0/css/catppuccin.css
   --card-bg: var(--ctp-macchiato-base);
   --card-border: transparent;
   --card-box-shadow: transparent;
-  --divider: var(--text-fg);
+  --divider: var(--ctp-macchiato-subtext1);
   --tag-fg: var(--ctp-macchiato-blue);
   --tag-bg: var(--card-bg);
   --tag-fg-active: var(--text-fg);
