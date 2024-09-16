@@ -4,6 +4,13 @@ This repository have some CSS snippets of [pranavdeshai/anki-prettify](https://g
 
 ## Colors
 
+I kept all the css flag names from the source code,
+so you can apply any color you want.
+
+However, I recommend using these official palettes.
+They will tell you where and when to use these colors.
+_I specifically used palette in all variants of Rosé Pine_.
+
 ### Source From **Original**
 
 - Aura (No light mode)
@@ -50,4 +57,3 @@ This repository have some CSS snippets of [pranavdeshai/anki-prettify](https://g
 - Sky
 - Solarized
 - Things
-
