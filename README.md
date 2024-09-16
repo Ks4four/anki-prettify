@@ -57,3 +57,15 @@ _I specifically used palette in all variants of Rosé Pine_.
 - Sky
 - Solarized
 - Things
+
+## Usage
+
+Works out of box, but I haven't clean up all the codes:
+
+1. Start from using [pranavdeshai/anki-prettify](https://github.com/pranavdeshai/anki-prettify), Install **Nord**.
+2. Open Anki, in **editor**, find a way to edit your card **styling**
+3. Find `/* -------------------------------------------------- COLORS */`
+4. Find `/* -------------------------------------------------- BACKGROUND */`
+5. Pick one theme you like, then find the css file
+6. Copy the **Raw file**; You would see a button for this when you click the file on GitHub site
+7. Replace these code between 3. and 4.
